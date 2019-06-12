@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundi Willy&#39;s Autonomous Vehicles Workshop</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Fundi Willy&#39;s Autonomous Vehicles Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jun 2019 07:01:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moving All Content Here - Consolidating</title>
+      <link>https://example.com/blog/moving/</link>
+      <pubDate>Wed, 12 Jun 2019 07:01:48 +0000</pubDate>
+      
+      <guid>https://example.com/blog/moving/</guid>
+      <description>For a while since I have had an interest in autonomous vehicles, I have been writing my content accross various platforms. These include:
+ Medium Githuka.com Twitter  While this is good for diversification, its not good especially when making a follow-up on progress, or when I want to check up on a previous code sinpet or photo.
+Just too inefficient from my point of view.
+Due to this I shall be moving all my content to here autonomy so that I can ensure streamlining of my work.</description>
+    </item>
+    
+    <item>
+      <title>Time To Get Moving — My First Autonomous Car Project</title>
+      <link>https://example.com/blog/first_car_project/</link>
+      <pubDate>Thu, 20 Apr 2017 08:24:12 +0000</pubDate>
+      
+      <guid>https://example.com/blog/first_car_project/</guid>
+      <description>The Python study program is over, am so excited to get my hands working on something. Last year I got a Red Hammer H2 RC Car. This car is made in China 1:14 and runs on 5x1.5V .I want to learn how to make it drive itself. Am sure there are tutorials online but I wanna make my own version . Currently it is controlled by a remote and has good suspension kits installed.</description>
+    </item>
+    
+  </channel>
+</rss>
