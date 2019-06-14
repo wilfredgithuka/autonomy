@@ -23,6 +23,16 @@ Due to this I shall be moving all my content to here autonomy so that I can ensu
     </item>
     
     <item>
+      <title>Learning Good Old C</title>
+      <link>https://example.com/blog/good_old_c/</link>
+      <pubDate>Sun, 05 May 2019 09:09:53 +0000</pubDate>
+      
+      <guid>https://example.com/blog/good_old_c/</guid>
+      <description>Autonomous vehicle systems is all about hardware interraction with software and the algorithims that go well with it. For this, to be a good technician/engineer one must master the relevant software and hardware tools that are required for this.
+All through the Udacity&amp;rsquo;s course for Self Driving Cars the language that I used mostly was C++. I also used Python for mostly high level programming like Neural networks and Machine Learning.</description>
+    </item>
+    
+    <item>
       <title>Time To Get Moving — My First Autonomous Car Project</title>
       <link>https://example.com/blog/first_car_project/</link>
       <pubDate>Thu, 20 Apr 2017 08:24:12 +0000</pubDate>
