@@ -2,11 +2,11 @@ baseURL = "https://example.com"
 title = "Fundi Willy's Autonomous Vehicles Workshop"
 themesDir = "/home/wilfred/autonomy_website/autonomy/themes/"
 theme = "m10c"
-paginate = 5
+paginate = 10
 
 [params]
   author = "Wilfred Githuka"
-  description = "A low level technical view of autonomous vehicles"
+  description = "A low level technical view of autonomous vehicles. wilred.gachugi[-at-]gmail.com"
   [[params.social]]
     name = "github"
     url = "https://github.com/wilfredgithuka"

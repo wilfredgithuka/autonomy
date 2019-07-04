@@ -4,13 +4,18 @@
   
   <url>
     <loc>https://example.com/blog/</loc>
-    <lastmod>2019-06-12T07:01:48+00:00</lastmod>
+    <lastmod>2019-07-04T05:27:49+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://example.com/blog/microcontroller/</loc>
+    <lastmod>2019-07-04T05:27:49+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/</loc>
-    <lastmod>2019-06-12T07:01:48+00:00</lastmod>
+    <lastmod>2019-07-04T05:27:49+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20,8 +25,28 @@
   </url>
   
   <url>
+    <loc>https://example.com/blog/nvtop/</loc>
+    <lastmod>2019-06-05T20:12:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/specs/</loc>
+    <lastmod>2019-05-07T14:43:07+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/blog/good_old_c/</loc>
     <lastmod>2019-05-05T09:09:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/udacity_second_term/</loc>
+    <lastmod>2018-05-08T01:44:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/udacity_start/</loc>
+    <lastmod>2017-12-17T07:32:54+00:00</lastmod>
   </url>
   
   <url>

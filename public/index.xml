@@ -5,10 +5,23 @@
     <link>https://example.com/</link>
     <description>Recent content on Fundi Willy&#39;s Autonomous Vehicles Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jun 2019 07:01:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2019 05:27:49 +0000</lastBuildDate>
     
 	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Choosing A Good Microcontroller For The Car</title>
+      <link>https://example.com/blog/microcontroller/</link>
+      <pubDate>Thu, 04 Jul 2019 05:27:49 +0000</pubDate>
+      
+      <guid>https://example.com/blog/microcontroller/</guid>
+      <description>Today is a good day for science.
+Yesterday I stayed up late selecting which microcontroller I will use for the car project.
+Well, its not that I had a plethora of chips to choose from, but on my workshop lay two chips:
+ ATmega328 STC15F2K60S2  ATMega328 Lets first look at the ATmega328 is a single-chip microcontroller more closely. It has the following features:
+ 8-bit RISC (Reduced Instruction Set Computer) processor core.</description>
+    </item>
     
     <item>
       <title>Moving All Content Here - Consolidating</title>
@@ -23,6 +36,28 @@ Due to this I shall be moving all my content to here autonomy so that I can ensu
     </item>
     
     <item>
+      <title>Nvtop - A Task Monitor For NVIDIA GPUs</title>
+      <link>https://example.com/blog/nvtop/</link>
+      <pubDate>Wed, 05 Jun 2019 20:12:49 +0000</pubDate>
+      
+      <guid>https://example.com/blog/nvtop/</guid>
+      <description>Nvtop is the htop for NVIDIA GPU&amp;rsquo;s. This tool is very handy especially when you need to check the stats of the GPU as you train your neural network.
+Installation yay -S nvtop  For more info, check the project&amp;rsquo;s page on Github</description>
+    </item>
+    
+    <item>
+      <title>GPU Hardware Specs Manual</title>
+      <link>https://example.com/blog/specs/</link>
+      <pubDate>Tue, 07 May 2019 14:43:07 +0000</pubDate>
+      
+      <guid>https://example.com/blog/specs/</guid>
+      <description>I thought it be good to put the specs of my local GPU so that in future, any tests that I do I can use this as a reference.
+Make: NVIDIA GTX 1050 This GPU is built using NVIDIA&amp;rsquo;s Pascal architecture, a successor of Maxwell which was introduced in 2016.
+The GPU&amp;rsquo;s base frequency is 1354 MHz; the GPU Boost rating jumps to 1455 MHz.
+Like the 1050 Ti, GeForce GTX 1050 exposes 32 ROPs and the same 1 MB of L2.</description>
+    </item>
+    
+    <item>
       <title>Learning Good Old C</title>
       <link>https://example.com/blog/good_old_c/</link>
       <pubDate>Sun, 05 May 2019 09:09:53 +0000</pubDate>
@@ -30,6 +65,27 @@ Due to this I shall be moving all my content to here autonomy so that I can ensu
       <guid>https://example.com/blog/good_old_c/</guid>
       <description>Autonomous vehicle systems is all about hardware interraction with software and the algorithims that go well with it. For this, to be a good technician/engineer one must master the relevant software and hardware tools that are required for this.
 All through the Udacity&amp;rsquo;s course for Self Driving Cars the language that I used mostly was C++. I also used Python for mostly high level programming like Neural networks and Machine Learning.</description>
+    </item>
+    
+    <item>
+      <title>Udacity&#39;s Term 2 - Sensor Fusion, Localization and Control</title>
+      <link>https://example.com/blog/udacity_second_term/</link>
+      <pubDate>Tue, 08 May 2018 01:44:47 +0000</pubDate>
+      
+      <guid>https://example.com/blog/udacity_second_term/</guid>
+      <description>Term 2 of Udacity’s Self Driving Car Nanodegree is all about Sensor Fusion, Localization, Control and the C++math behind all the topics. I cant wait. I love math and math loves me. Term 1 was quite challenging for me in terms to time management but for this second term am all in.
+In this term I cant wait to dive deeper into the Extended Kalman Filter and the Kidnapped Vehicle which really sounds deeper.</description>
+    </item>
+    
+    <item>
+      <title>Udacity Self Driving Car Nanodegree-Lets Do This</title>
+      <link>https://example.com/blog/udacity_start/</link>
+      <pubDate>Sun, 17 Dec 2017 07:32:54 +0000</pubDate>
+      
+      <guid>https://example.com/blog/udacity_start/</guid>
+      <description>So much desire ends up in accomplishment. After waiting, saving and prepping(coding) for sometime I am ready to start my journey into the world of Self Driving Cars at Udacity.
+I have read reviews, gone through students’ blogs on the course, tried out some projects on my own, so now I get to get my feet wet in the course.
+Self-driving cars represent one of the most significant advances in modern history.</description>
     </item>
     
     <item>
