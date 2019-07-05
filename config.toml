@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://autonomy.githuka.com"
 title = "Fundi Willy's Autonomous Vehicles Workshop"
 themesDir = "/home/wilfred/autonomy_website/autonomy/themes/"
 theme = "m10c"
