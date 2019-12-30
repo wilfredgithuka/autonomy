@@ -1,22 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://autonomy.githuka.com/blog/</loc>
-    <lastmod>2019-07-04T05:27:49+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-12-29T22:03:33+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/</loc>
+    <lastmod>2019-12-29T22:03:33+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/realdash/</loc>
+    <lastmod>2019-12-29T22:03:33+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/android_tablet/</loc>
+    <lastmod>2019-12-28T19:11:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/etc_12v/</loc>
+    <lastmod>2019-12-25T21:07:17+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/car_issues/</loc>
+    <lastmod>2019-12-01T23:11:42+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/carla/</loc>
+    <lastmod>2019-08-19T13:33:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://autonomy.githuka.com/blog/microcontroller/</loc>
     <lastmod>2019-07-04T05:27:49+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://autonomy.githuka.com/</loc>
-    <lastmod>2019-07-04T05:27:49+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -56,12 +79,10 @@
   
   <url>
     <loc>https://autonomy.githuka.com/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://autonomy.githuka.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

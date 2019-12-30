@@ -1,14 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundi Willy&#39;s Autonomous Vehicles Workshop</title>
     <link>https://autonomy.githuka.com/</link>
     <description>Recent content on Fundi Willy&#39;s Autonomous Vehicles Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Jul 2019 05:27:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 22:03:33 +0300</lastBuildDate>
     
 	<atom:link href="https://autonomy.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RealDash App</title>
+      <link>https://autonomy.githuka.com/blog/realdash/</link>
+      <pubDate>Sun, 29 Dec 2019 22:03:33 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/realdash/</guid>
+      <description>Among the useful functional apps that I have added this week in the tablet is RealDash. The guys behind this project have done a wonderful job.
+RealDash is simply the most beautiful dash that your car company should have installed in your car but did not. They have many designs of a digital dash together with music, trip and games.
+There is a free and premium version.
+The app runs smoothly on the tab but it intermittently works.</description>
+    </item>
+    
+    <item>
+      <title>Vehicle Android Tablet Heads Up Display and Media Center</title>
+      <link>https://autonomy.githuka.com/blog/android_tablet/</link>
+      <pubDate>Sat, 28 Dec 2019 19:11:28 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/android_tablet/</guid>
+      <description>The internet is awash with so many in-car head up displays from so many manufaturers.
+Lets face it the stock HUDs are so boring and old school, not apealing at all.
+In this project I mnaged to fit an old Android Tablet in replacement of my car audio to also play music and display data from the ECU.
+The data from the ECU is transmitted via a Bluetooth OBD2 device.</description>
+    </item>
+    
+    <item>
+      <title>12V 1A DC Power Source &#43; ETC Card Reader Removed</title>
+      <link>https://autonomy.githuka.com/blog/etc_12v/</link>
+      <pubDate>Wed, 25 Dec 2019 21:07:17 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/etc_12v/</guid>
+      <description>My test car is Japanese and Japanese vehicles have ETC Toll Devices. These are devices mounted on preety all Japanese cars so that when you pass a toll gate there is no need to stop, the deice will be detected automatically by a sensor on the gate and payment will be done electronically.
+But when the cars leave Japan, most of these devices are no-longer useful, like here in Kenya. They are powerd by a 12V DC which comes from the battery and is turned on as soon as you turn the key to ACC.</description>
+    </item>
+    
+    <item>
+      <title>Car Issues That Need Fixing</title>
+      <link>https://autonomy.githuka.com/blog/car_issues/</link>
+      <pubDate>Sun, 01 Dec 2019 23:11:42 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/car_issues/</guid>
+      <description>The following are the issues/problems that my Nissan Note E11 has which I new before purchase of the vehicle.
+ Airbag Lamp Flashing - This means that there is a problem with the airbag system but also the horn works only when the steering wheel is on a specific position. I think its a Spiral Cable Clock Spring problem. The clock spring is located between the steering wheel and the steering column.</description>
+    </item>
+    
+    <item>
+      <title>CARLA Release 0.96 on Archlinux</title>
+      <link>https://autonomy.githuka.com/blog/carla/</link>
+      <pubDate>Mon, 19 Aug 2019 13:33:03 +0000</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/carla/</guid>
+      <description>CARLA is an open source simulator for autonomous driving research.
+Its the kind of tool that AI and Autonomous Driving techies can use to speed up research in a real world simulation environment.
+Carla has been in development for a while now and mid last year I tried to install in on my Arch machine, it was tough.
+Carla was built on Ubuntu and best runs on Ubuntu, but I dont use Ubuntu.</description>
+    </item>
     
     <item>
       <title>Choosing A Good Microcontroller For The Car</title>
