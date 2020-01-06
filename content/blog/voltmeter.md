@@ -4,6 +4,8 @@ date: 2020-01-06T07:53:59+03:00
 draft: false
 ---
 
+![display](/e11/multimeter.jpg)
+
 So this weekend I have been busy adding more devices to the car.
 
 For a while I have had the challenge of not knowing the status of the car battery
