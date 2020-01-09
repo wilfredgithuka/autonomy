@@ -16,13 +16,13 @@ Because this is a minimal static website powered by Go, you can have a copy of t
 
 Just do a simple git clone and you are done.
 
-I have moved the blog to a new git repo. So some posts images are still not available, but I will soon add them.
-
 Trying to keep the blog's size to below 15MB incl of images. [minimalism]
 
 
 ## Release/Update History
 
+  0.1.4
+    * New Article: Carputer(No Images Yet)
 * 0.1.3
     * PRODUCTION: Sent To Server LIVE
     * SMALL UPDATE: Header Image for README.md file is set.
