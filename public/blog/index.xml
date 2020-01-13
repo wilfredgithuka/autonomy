@@ -5,10 +5,21 @@
     <link>https://autonomy.githuka.com/blog/</link>
     <description>Recent content in Blogs on Fundi Willy&#39;s Autonomous Vehicles Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Jan 2020 09:06:53 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 10:11:33 +0300</lastBuildDate>
     
 	<atom:link href="https://autonomy.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Radio Update&#43;Fuse Blown Weekend</title>
+      <link>https://autonomy.githuka.com/blog/radio_update/</link>
+      <pubDate>Mon, 13 Jan 2020 10:11:33 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/radio_update/</guid>
+      <description>GoodMorning, I hope this post finds you well, and I hope you had a great weekend.
+This past weekend I have been busy wiring up the radio and moving it from the dashboard to the back. I find it more practical since I don&amp;rsquo;t interract with it so much during driving, furthermore the front section is currently occupied by the tablet mod.
+The SONY radio has the following sets of inputs and outputs:</description>
+    </item>
     
     <item>
       <title>Raspberry Pi&#43;Webcam Based Dashcam</title>
