@@ -5,10 +5,31 @@
     <link>https://autonomy.githuka.com/</link>
     <description>Recent content on Fundi Willy&#39;s Autonomous Vehicles Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Jan 2020 07:53:59 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 09:06:53 +0300</lastBuildDate>
     
 	<atom:link href="https://autonomy.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry Pi&#43;Webcam Based Dashcam</title>
+      <link>https://autonomy.githuka.com/blog/dashcam/</link>
+      <pubDate>Fri, 10 Jan 2020 09:06:53 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/dashcam/</guid>
+      <description>Its time for my car to have eyes. It needs to see the road ahead.
+One of the main cimponents of a connected autonomous vehicle is the ability to percieve its environment. This is made possible by sensors and cameras. This is the main difference between Waymo and Tesla.
+I have a Raspberry Pi which I plan to connect a desktop USB webcam to it providing the crucial vision function.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Making My Carputer</title>
+      <link>https://autonomy.githuka.com/blog/carputer/</link>
+      <pubDate>Wed, 08 Jan 2020 08:24:47 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/carputer/</guid>
+      <description>For a while now since I got this Nissan Note I have been toying aroud with the idea of having a Carputer. A carputer is a car-computer which handles connetivity of all devices in a car. Most are aftermarket and operate on a higher level that than the ECU.
+Basic Requirements of a Carputer  Computing device Screen Input method Power  Computing Device This is perhaps the most important.</description>
+    </item>
     
     <item>
       <title>Car Battery Dashboard Status Monitor</title>
