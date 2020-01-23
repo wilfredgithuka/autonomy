@@ -3,7 +3,7 @@
   <head>
     <title>Choosing A Good Microcontroller For The Car // Fundi Willy&#39;s Autonomous Vehicles Workshop</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Wilfred Githuka" />
     <meta name="description" content="" />
@@ -72,23 +72,15 @@ Well, its not that I had a plethora of chips to choose from, but on my workshop 
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>Today is a good day for science.</p>
-
+      <p>Today is a good day for science.</p>
 <p>Yesterday I stayed up late selecting which microcontroller I will use for the car project.</p>
-
 <p>Well, its not that I had a plethora of chips to choose from, but on my workshop lay two chips:</p>
-
 <ul>
 <li>ATmega328</li>
 <li>STC15F2K60S2</li>
 </ul>
-
 <h3 id="atmega328">ATMega328</h3>
-
 <p>Lets first look at the ATmega328 is a single-chip microcontroller more closely. It has the following features:</p>
-
 <ul>
 <li>8-bit RISC (Reduced Instruction Set Computer) processor core.</li>
 <li>Runs at clock speeds from 1MHz to 20MHz.</li>
@@ -102,9 +94,7 @@ Well, its not that I had a plethora of chips to choose from, but on my workshop 
 <li>Internal and External Interrupts.</li>
 <li>Available in DIP and Surface Mount packages.</li>
 </ul>
-
 <h3 id="stc15f2k60s2">STC15F2K60S2</h3>
-
 <p>The STC15F2K60S2 series MCU is a single-chip microcontroller based on a high performance 1T architecture
 8051 CPU, which is produced by STC MCU Limited. It is a new generation of 8051 MCU of high speed, high
 stability, low power consumption and super strong anti-disturbance. Besides, STC15F2K60S2 series MCU is a
@@ -112,9 +102,7 @@ MCU of super advanced encryption, because it adopts the eighth generation of STC
 the enhanced kernel, STC15F2K60S2 series MCU is faster than a traditional 8051 in executing instructions (about
 8~12 times the rate of a traditional 8051 MCU), and has a fully compatible instruction set with traditional 8051
 series microcontroller. This is what it packs under the Silicon:</p>
-
-<p><img src="/img/stc.png" alt="stc-image" /></p>
-
+<p><img src="/img/stc.png" alt="stc-image"></p>
 <ul>
 <li>8-bit RISC Processor Chip</li>
 <li>Clock speeds: 5Mhz to 35Mhz</li>
@@ -130,40 +118,23 @@ series microcontroller. This is what it packs under the Silicon:</p>
 <li>Super low power consumption, Very cheap</li>
 <li>Super Strong Anti-static electricity, Super Strong Anti-Disturbance</li>
 </ul>
-
 <p>It seems that the STC15F2K60 scores highly against the ATMega328 but it lacking the I2C interface makes me
 abit worried. Currently the Rpi connects to the Arduini via the I2C interface.</p>
-
 <p>Also a challenge is that the many STC15F2K60 chips that I have all all surface mount chips. Converting this
 to a breadboard so that I can access the pins well is another days work, but this is what am thinking of doing.</p>
-
 <p>The STC15F2K60 seems more famous in China than outside so am sure apart from the <a href="http://stcmicro.com/datasheet/STC15F2K60S2-en.pdf">well documented</a> data sheet,
 I will be preety much on my own.</p>
-
 <h3 id="stcgal">stcgal</h3>
-
 <p><a href="https://github.com/grigorig/stcgal">Stcgal</a> is a command line flash programming tool for STC MCU Ltd. 8051 compatible microcontrollers. STC microcontrollers have an UART/USB based boot strap loader (BSL). It utilizes a packet-based protocol to flash the code memory and IAP memory over a serial link. This is referred to as in-system programming (ISP). The BSL is also used to configure various (fuse-like) device options.</p>
-
 <p>Unfortunately, this protocol is not publicly documented and STC only provide a (crude) Windows GUI application for programming.</p>
-
 <p>In Linux to install stcgal do the following:</p>
-
 <pre><code>pip3 install stcgal
-</code></pre>
-
-<p>I would suggest not running this in a conda environment, since that has issues.</p>
-
+</code></pre><p>I would suggest not running this in a conda environment, since that has issues.</p>
 <p>You can then call stcgal for options.</p>
-
 <pre><code>stcgal -h
-</code></pre>
-
-<h3 id="supported-mcu-models">Supported MCU Models</h3>
-
+</code></pre><h3 id="supported-mcu-models">Supported MCU Models</h3>
 <p>stcgal should fully support STC 89/90/10/11/12/15/8 series MCUs.</p>
-
 <p>So far, stcgal was tested with the following MCU models:</p>
-
 <ul>
 <li>STC89C52RC (BSL version: 4.3C/6.6C)</li>
 <li>STC90C52RC (BSL version: 4.3C)</li>
@@ -189,11 +160,8 @@ I will be preety much on my own.</p>
 <li>STC8A8K64S4A12 (BSL version: 7.3.9U)</li>
 <li>STC8F2K08S2 (BSL version: 7.3.10U)</li>
 </ul>
-
 <p>Compatibility reports, both negative and positive, are welcome.</p>
-
-<p>Next project &gt;&gt; Breakout board for the STCF2K60S2</p>
-
+<p>Next project &raquo; Breakout board for the STCF2K60S2</p>
 <p>Back to code&hellip;</p>
 
     </div>

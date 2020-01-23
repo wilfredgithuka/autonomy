@@ -3,7 +3,7 @@
   <head>
     <title>Raspberry Pi&#43;Webcam Based Dashcam // Fundi Willy&#39;s Autonomous Vehicles Workshop</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Wilfred Githuka" />
     <meta name="description" content="" />
@@ -68,77 +68,47 @@ I have a Raspberry Pi which I plan to connect a desktop USB webcam to it providi
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>Its time for my car to have eyes. It needs to see the road ahead.</p>
-
+      <p>Its time for my car to have eyes. It needs to see the road ahead.</p>
 <p>One of the main cimponents of a connected autonomous vehicle is the
 ability to percieve its environment. This is made possible by sensors
 and cameras. This is the main difference between Waymo and Tesla.</p>
-
 <p>I have a Raspberry Pi which I plan to connect a desktop USB webcam to
 it providing the crucial vision function.</p>
-
 <h2 id="hardware">Hardware</h2>
-
 <ul>
 <li>Raspberry Pi</li>
 <li>USB Webcam</li>
 </ul>
-
 <h2 id="software">Software</h2>
-
 <ul>
 <li>FFmpeg</li>
 <li>mpv</li>
 <li>OpenSSH</li>
 <li>Python</li>
 </ul>
-
 <h2 id="connectivity">Connectivity</h2>
-
 <ul>
 <li>Serial</li>
 <li>Wifi</li>
 <li>USB</li>
 <li>LAN RJ45</li>
 </ul>
-
 <h2 id="setting-up-the-raspberry-pi">Setting Up The Raspberry Pi</h2>
-
 <p>On the Raspberry Pi I will be running <a href="https://archlinuxarm.org/forum/index.php?sid=063f51be110fbd0238a9280f9253795b">Archlinux ARM</a>. After installation
 be sure to update your system:</p>
-
 <pre><code>sudo pacman -Syu
-</code></pre>
-
-<p>Install required software &amp; tools</p>
-
+</code></pre><p>Install required software &amp; tools</p>
 <pre><code>sudo pacman -S ffmpeg mpv openssh python
-</code></pre>
-
-<p>Next install software for the USB Webcam</p>
-
+</code></pre><p>Next install software for the USB Webcam</p>
 <pre><code>sudo pacman -S v4l-utils mpv xawtv
-</code></pre>
-
-<p>The Raspberrypi shall be running headless thats why I installed openSSH. Once that is done, its time to connect the hardware.</p>
-
+</code></pre><p>The Raspberrypi shall be running headless thats why I installed openSSH. Once that is done, its time to connect the hardware.</p>
 <h2 id="usb-camera-setup">USB Camera Setup</h2>
-
 <p>Connect the USB Webcam and list USB Devices.</p>
-
 <pre><code>sudo lsusb
-</code></pre>
-
-<p>The device should be listed, if not I would suggest reading the <a href="https://wiki.archlinux.org/index.php/Webcam_setup">Archlinux Wiki</a> about webcam support.
+</code></pre><p>The device should be listed, if not I would suggest reading the <a href="https://wiki.archlinux.org/index.php/Webcam_setup">Archlinux Wiki</a> about webcam support.
 Most recent webcams are UVC (USB Video Class) compliant and are supported by the generic uvcvideo kernel driver module. To check that your webcam is recognized, run dmesg just after you plug the webcam in.</p>
-
 <pre><code>dmesg | tail
-</code></pre>
-
-<p>Once this is complete, its time to take some photos and videos.</p>
-
+</code></pre><p>Once this is complete, its time to take some photos and videos.</p>
 <p>Since I will be using C to write programs to the Pi inorder to access the camera, some setup has to be done.</p>
 
     </div>

@@ -3,7 +3,7 @@
   <head>
     <title>CARLA Release 0.96 on Archlinux // Fundi Willy&#39;s Autonomous Vehicles Workshop</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Wilfred Githuka" />
     <meta name="description" content="" />
@@ -70,66 +70,47 @@ Carla was built on Ubuntu and best runs on Ubuntu, but I dont use Ubuntu." />
         </div></div>
     </header>
     <div class="post-content">
-      <p><img src="http://carla.org/img/posts/2019-07-12/pedestrians.gif" alt="carla" /></p>
-
+      <p><img src="http://carla.org/img/posts/2019-07-12/pedestrians.gif" alt="carla"></p>
 <p>CARLA is an open source simulator for autonomous driving research.</p>
-
 <p>Its the kind of tool that AI and Autonomous Driving techies can use
 to speed up research in a real world simulation environment.</p>
-
 <p>Carla has been in development for a while now and mid last year
 I tried to install in on my Arch machine, it was tough.</p>
-
 <p>Carla was built on Ubuntu and best runs on Ubuntu, but I dont use Ubuntu.</p>
-
 <p>With this new release however, its more simpler to run it on Archlinux. This release brings back long-requested features, such as automatic pedestrian navigation (AI-controlled), better visual quality and a new skeleton control API, among other improvements.</p>
-
 <p>Just follow the steps below:</p>
-
 <ul>
-<li><p>Update your machine</p>
-
-<pre><code>pacman -Syu
-</code></pre></li>
-
-<li><p>Activate your Python Conda environment</p>
-
-<pre><code>conda activate deeplearning
-</code></pre></li>
-
-<li><p>Update your Conda evironment(if necessary)</p>
-
-<pre><code>conda update --all
-</code></pre></li>
-
-<li><p>Downgrade to Python 3.5.6 You will thank me later.</p>
-
-<pre><code>conda install python=3.5
-</code></pre></li>
-
-<li><p>Download <a href="http://carla-assets-internal.s3.amazonaws.com/Releases/Linux/CARLA_0.9.6.tar.gz">Carla zip</a>. Its 2.9GB</p></li>
-
-<li><p>Extract</p></li>
-
-<li><p>Install required files for Carla through python&rsquo;s pip</p>
-
-<pre><code>pip install carla future pygame
-</code></pre></li>
-
-<li><p>The examples shall be stored in the PythonAPI folder. You can check there to confirm</p></li>
-
-<li><p>Run ./CarlaUE4.sh to load the simulator. It shall run but without any cars or peds</p></li>
-
-<li><p>Minimise that and in the PythonAPI folder run:</p>
-
-<pre><code>python spawn_npc.py -n 900
-</code></pre></li>
-
-<li><p>This will spawn over 900 cars. You can work with a lower value.</p></li>
+<li>Update your machine</li>
 </ul>
-
+<pre><code>pacman -Syu
+</code></pre><ul>
+<li>Activate your Python Conda environment</li>
+</ul>
+<pre><code>conda activate deeplearning
+</code></pre><ul>
+<li>Update your Conda evironment(if necessary)</li>
+</ul>
+<pre><code>conda update --all
+</code></pre><ul>
+<li>Downgrade to Python 3.5.6 You will thank me later.</li>
+</ul>
+<pre><code>conda install python=3.5
+</code></pre><ul>
+<li>Download <a href="http://carla-assets-internal.s3.amazonaws.com/Releases/Linux/CARLA_0.9.6.tar.gz">Carla zip</a>. Its 2.9GB</li>
+<li>Extract</li>
+<li>Install required files for Carla through python's pip</li>
+</ul>
+<pre><code>pip install carla future pygame
+</code></pre><ul>
+<li>The examples shall be stored in the PythonAPI folder. You can check there to confirm</li>
+<li>Run ./CarlaUE4.sh to load the simulator. It shall run but without any cars or peds</li>
+<li>Minimise that and in the PythonAPI folder run:</li>
+</ul>
+<pre><code>python spawn_npc.py -n 900
+</code></pre><ul>
+<li>This will spawn over 900 cars. You can work with a lower value.</li>
+</ul>
 <p>Success :-)</p>
-
 <p>The guys over at Carla have made an amazing <a href="https://carla.readthedocs.io/en/latest/">documentation</a>, you can always consult it.</p>
 
     </div>

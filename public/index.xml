@@ -5,10 +5,22 @@
     <link>https://autonomy.githuka.com/</link>
     <description>Recent content on Fundi Willy&#39;s Autonomous Vehicles Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Jan 2020 10:11:33 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 08:24:47 +0300</lastBuildDate>
     
 	<atom:link href="https://autonomy.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Audio Unit Wiring Explained</title>
+      <link>https://autonomy.githuka.com/blog/wiring/</link>
+      <pubDate>Thu, 16 Jan 2020 08:24:47 +0300</pubDate>
+      
+      <guid>https://autonomy.githuka.com/blog/wiring/</guid>
+      <description>After a whole week with no radio in my car, I have been busy trying to locate the blown fuse for the audio unit. I suspect the problem could be far worse since the side mirrors are no-longer working anymore.
+I used the manual and therefore would recommend you first consult your users manual before attempting any modifications to your car.
+The Audio Unit is has 2 power inputs/outputs:
+ Battery+ 12V ACC +12V GROUND  Battery +12V This wire is Light Green/Yellow in color and is connected to the vehicle&#39;s +12V terminal accross a 15A Fuse Connection No:34.</description>
+    </item>
     
     <item>
       <title>Radio Update&#43;Fuse Blown Weekend</title>
@@ -17,7 +29,7 @@
       
       <guid>https://autonomy.githuka.com/blog/radio_update/</guid>
       <description>GoodMorning, I hope this post finds you well, and I hope you had a great weekend.
-This past weekend I have been busy wiring up the radio and moving it from the dashboard to the back. I find it more practical since I don&amp;rsquo;t interract with it so much during driving, furthermore the front section is currently occupied by the tablet mod.
+This past weekend I have been busy wiring up the radio and moving it from the dashboard to the back. I find it more practical since I don&#39;t interract with it so much during driving, furthermore the front section is currently occupied by the tablet mod.
 The SONY radio has the following sets of inputs and outputs:</description>
     </item>
     
@@ -39,7 +51,7 @@ I have a Raspberry Pi which I plan to connect a desktop USB webcam to it providi
       
       <guid>https://autonomy.githuka.com/blog/carputer/</guid>
       <description>For a while now since I got this Nissan Note I have been toying aroud with the idea of having a Carputer. A carputer is a car-computer which handles connetivity of all devices in a car. Most are aftermarket and operate on a higher level that than the ECU.
-Basic Requirements of a Carputer  Computing device Screen Input method Power  Computing Device This is perhaps the most important.</description>
+Basic Requirements of a Carputer  Computing device Screen Input method Power  Computing Device This is perhaps the most important. A fairly sized computer will do.</description>
     </item>
     
     <item>
@@ -62,7 +74,8 @@ My car has a normal Lead Acid Accumulator battery with a voltage of 12V at norma
       <description>As I write this post the radio is out and the front panel looks like a mess.
 A peek behind the radio system last week looked like an wiring graveyard. The place was full of accumulated dust and used insulation tape everywhere. Unlabelled wires everywhere and weak connections.
 Wiring I spent today cleaning and re-doing the wiring and improving the overall appearance of that place.
-Dashboard situation diring working.</description>
+Dashboard situation diring working.
+Wiring reference connection image</description>
     </item>
     
     <item>
@@ -106,7 +119,7 @@ But when the cars leave Japan, most of these devices are no-longer useful, like 
       
       <guid>https://autonomy.githuka.com/blog/car_issues/</guid>
       <description>The following are the issues/problems that my Nissan Note E11 has which I new before purchase of the vehicle.
- Airbag Lamp Flashing - This means that there is a problem with the airbag system but also the horn works only when the steering wheel is on a specific position. I think its a Spiral Cable Clock Spring problem. The clock spring is located between the steering wheel and the steering column.</description>
+  Airbag Lamp Flashing - This means that there is a problem with the airbag system but also the horn works only when the steering wheel is on a specific position. I think its a Spiral Cable Clock Spring problem. The clock spring is located between the steering wheel and the steering column.</description>
     </item>
     
     <item>
@@ -152,8 +165,8 @@ Due to this I shall be moving all my content to here autonomy so that I can ensu
       <pubDate>Wed, 05 Jun 2019 20:12:49 +0000</pubDate>
       
       <guid>https://autonomy.githuka.com/blog/nvtop/</guid>
-      <description>Nvtop is the htop for NVIDIA GPU&amp;rsquo;s. This tool is very handy especially when you need to check the stats of the GPU as you train your neural network.
-Installation yay -S nvtop  For more info, check the project&amp;rsquo;s page on Github</description>
+      <description>Nvtop is the htop for NVIDIA GPU&#39;s. This tool is very handy especially when you need to check the stats of the GPU as you train your neural network.
+Installation yay -S nvtop For more info, check the project&#39;s page on Github</description>
     </item>
     
     <item>
@@ -163,8 +176,8 @@ Installation yay -S nvtop  For more info, check the project&amp;rsquo;s page on 
       
       <guid>https://autonomy.githuka.com/blog/specs/</guid>
       <description>I thought it be good to put the specs of my local GPU so that in future, any tests that I do I can use this as a reference.
-Make: NVIDIA GTX 1050 This GPU is built using NVIDIA&amp;rsquo;s Pascal architecture, a successor of Maxwell which was introduced in 2016.
-The GPU&amp;rsquo;s base frequency is 1354 MHz; the GPU Boost rating jumps to 1455 MHz.
+Make: NVIDIA GTX 1050 This GPU is built using NVIDIA&#39;s Pascal architecture, a successor of Maxwell which was introduced in 2016.
+The GPU&#39;s base frequency is 1354 MHz; the GPU Boost rating jumps to 1455 MHz.
 Like the 1050 Ti, GeForce GTX 1050 exposes 32 ROPs and the same 1 MB of L2.</description>
     </item>
     
@@ -175,7 +188,7 @@ Like the 1050 Ti, GeForce GTX 1050 exposes 32 ROPs and the same 1 MB of L2.</des
       
       <guid>https://autonomy.githuka.com/blog/good_old_c/</guid>
       <description>Autonomous vehicle systems is all about hardware interraction with software and the algorithims that go well with it. For this, to be a good technician/engineer one must master the relevant software and hardware tools that are required for this.
-All through the Udacity&amp;rsquo;s course for Self Driving Cars the language that I used mostly was C++. I also used Python for mostly high level programming like Neural networks and Machine Learning.</description>
+All through the Udacity&#39;s course for Self Driving Cars the language that I used mostly was C++. I also used Python for mostly high level programming like Neural networks and Machine Learning.</description>
     </item>
     
     <item>
