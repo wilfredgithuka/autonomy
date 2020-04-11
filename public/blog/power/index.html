@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Fundamentals of A Dual Battery Power System // Fundi Willy&#39;s Autonomous Vehicles Workshop</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.67.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Wilfred Githuka" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://autonomy.githuka.com/css/main.min.59023e5fd38d6ecb0e1dfbb295077c3c67e00e3b9eb3feaf34b5a5e6b332897a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fundamentals of A Dual Battery Power System"/>
+<meta name="twitter:description" content="For a while I have been designing components to be added to my Nissan Note but over time I have realised one problem.Power
+All these devices need to be connected to the car battery and the last thing I want is to have a dead/low battery unable to crank the engine. So I need a way to isolate/protect the car battery from overusage when the engine is not running.
+In a dual battery setup, there are two battery units in the car, the starting battery and the second usage battery."/>
+
+    <meta property="og:title" content="Fundamentals of A Dual Battery Power System" />
+<meta property="og:description" content="For a while I have been designing components to be added to my Nissan Note but over time I have realised one problem.Power
+All these devices need to be connected to the car battery and the last thing I want is to have a dead/low battery unable to crank the engine. So I need a way to isolate/protect the car battery from overusage when the engine is not running.
+In a dual battery setup, there are two battery units in the car, the starting battery and the second usage battery." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://autonomy.githuka.com/blog/power/" />
+<meta property="article:published_time" content="2020-04-05T08:56:07+03:00" />
+<meta property="article:modified_time" content="2020-04-05T08:56:07+03:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://autonomy.githuka.com"><img class="app-header-avatar" src="/avatar.jpg" alt="Wilfred Githuka" /></a>
+      <h1>Fundi Willy&#39;s Autonomous Vehicles Workshop</h1>
+      <p>A low level technical view of autonomous vehicles &gt; wilfred.gachugi[-at-]gmail.com</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/wilfredgithuka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/wilfredgithuka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Fundamentals of A Dual Battery Power System</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 5, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <p>For a while I have been designing components to be added to my Nissan Note but over
+time I have realised one problem.Power</p>
+<p>All these devices need to be connected to the car battery and the last thing I want
+is to have a dead/low battery unable to crank the engine. So I need a way to isolate/protect
+the car battery from overusage when the engine is not running.</p>
+<p>In a dual battery setup, there are two battery units in the car, the starting battery and the
+second usage battery. The starting battery is for starting the engine and while the engine
+is running, it charges both battery units. When the engine is OFF, there is an isolator which
+connects the load to the second battery. In some connections, the secondary battery can also
+help the main starting battery should it be too low. This is however beyond the scope of this manual.</p>
+<h2 id="my-setup">My Setup</h2>
+<ul>
+<li>Primary Battery - Wet Lead Acid Battery 12V</li>
+<li>Secondary Battery - Sealed Lead Acid Battery 12V 7.0AH</li>
+</ul>
+<h3 id="primary-battery">Primary Battery</h3>
+<p>This is a common old car starting battery 12V which is at its glory days. I think its time I replaced
+this unit but time will tell. It works well but on cold days it can fall to 9V which is normaly a hit and
+miss situation if it can start the engine. I have installed a voltmeter to monitor its state. You can
+read about it here. In a dual battery setup which am planning to design, this battery will remain as it is
+and it shall be used only for starting the car.</p>
+<h3 id="secondaryaux-battery">Secondary/Aux Battery</h3>
+<p>This is new 12V 7.0 AH PK1270 Sealed Lead Acid Battery.</p>
+<h4 id="composition">Composition</h4>
+<ul>
+<li>Negative Electrode: Lead (Pb)</li>
+<li>Positive Electrode: Lead Dioxide (PBO2)</li>
+<li>Electrolyte: Dilute Sulphuric Acid (H2SO4)</li>
+<li>Battery Shell: ABS Plastic</li>
+<li>Separator: Glass Fibre (Silicon Dioxide)</li>
+<li>Terminal: Silver Coated Copper</li>
+</ul>
+<h4 id="discharging">Discharging</h4>
+<p>The battery is rated at 7.0AH(Ampere Hours). This means that you can draw A Amps for 7 hours straight before it
+gets drained flat. from the formula of charge, Q=IT  ie Charge(C) = Current(I) X Time (Hours), we can also say</p>
+<ul>
+<li>0.35 Amps (350 mAH) for 20 Hours</li>
+<li>0.5 Amps (500 mAH) for 14 Hours</li>
+<li>1 Amps for 7 Hours</li>
+<li>2 Amps for 3.5 Hours</li>
+<li>3 Amps for 2.3 Hours</li>
+<li>4 Amps for 1.7 Hours</li>
+</ul>
+<p>From the above epressions, we can see that as the current drawn increases, the duration decreases.</p>
+<h4 id="charging">Charging</h4>
+<p>This sealed lead acid battery contains 6 cells inside it so when charging one has to be very careful not to overcharge
+them since this will eventually destroy them. According to the manuafacturer the recomended charging  voltage is 14.20-15V
+with a current less than 2.10A. From <a href="https://www.youtube.com/watch?v=-0RAHOAd50Y">LahisTech&rsquo;s Youtube Video</a> I have found a way to charge this battery from the car&rsquo;s alternator while the engine is running.</p>
+<p>The car alternator has an output of 13.5V when the engine is running which is sufficient to charge, but what I need to
+take car of is the charging current which should be best at 0.7A-0.8A. I need to use a <a href="https://www.ebay.com/itm/5A-DC-DC-Step-Down-Buck-Converter-Module-Power-Supply-LED-Lithium-Charger-XL4015/182391151322?hash=item2a775c1ada:m:mabZ7S_ZBKjDtlkxKBv1KHQ">DC-DC Buck Converter</a> which has
+a variable current adjustment.</p>
+<h3 id="excpected-loads-and-their-rating">Excpected Loads and Their Rating</h3>
+<ul>
+<li>RaspberryPi: 0.5-1A without wifi and camera</li>
+<li>Wifi Router: 1.5-2A</li>
+<li>Voltimter: 0.2A</li>
+</ul>
+<p>Thats it for now, let me embark on designing the charging circuit then I shall update asap. Remember to take care when working with batteries.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

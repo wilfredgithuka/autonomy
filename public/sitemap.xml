@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://autonomy.githuka.com/blog/wiring/</loc>
-    <lastmod>2020-01-16T08:24:47+03:00</lastmod>
+    <loc>https://autonomy.githuka.com/blog/serial/</loc>
+    <lastmod>2020-04-11T21:37:13+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://autonomy.githuka.com/blog/</loc>
-    <lastmod>2020-01-16T08:24:47+03:00</lastmod>
+    <lastmod>2020-04-11T21:37:13+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://autonomy.githuka.com/</loc>
+    <lastmod>2020-04-11T21:37:13+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/power/</loc>
+    <lastmod>2020-04-05T08:56:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://autonomy.githuka.com/blog/wiring/</loc>
     <lastmod>2020-01-16T08:24:47+03:00</lastmod>
   </url>
   
